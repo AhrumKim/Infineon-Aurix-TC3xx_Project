@@ -1,0 +1,88 @@
+552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.3151  ***  **********************************************************
+552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.6728  ***  Logger configuration successful. Configuration file used: 
+552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.7001  ***  C:\Infineon\AURIX-Studio-1.10.2\configuration\org.eclipse.osgi\361\0\.cp\lib\log4j.properties
+552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.7181  ***  **********************************************************
+553  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysPluginConfiguration : ***  559.9595  ***  Loading debug plugin properties from 'C:\Infineon\AURIX-Studio-1.10.2\isys_debugger_configuration.json'
+665  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysPluginConfiguration : ***  670.0455  ***  Loaded plugin configuration:
+	 - Enable embedded: false
+	 - Enable portable false
+	 - Default selection: Custom
+	 - Default install path: '\winIDEA'
+665  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISystemPreferences : ***  670.1734  ***  State location loaded at C:\Users\FM23\AURIX-v1.10.2-workspace\.metadata\.plugins\si.isystem.eclipse.debug
+665  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISystemPreferences : ***  670.5794  ***  Preferences loaded: Install type: Custom, Custom path: '\winIDEA'
+667  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  672.6049  ***  Starting Plugin si.isystem.eclipse.debug version 921.25900.179258.
+669  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  675.3948  ***  Plugin si.isystem.eclipse.debug started.
+669  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  675.4425  ***  winIDEA installation cancelled because embedded winIDEA is not allowed.
+669  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  675.4643  ***  Plugin started: si.isystem.eclipse.debug
+5501 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  5507.1894  ***  ISysConnectionService initialization(super) started.
+5513 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  5519.1906  ***  
+Starting debug session using launch configuration paramenters: 
+ - Launch name = 'ADC_Queued_Scan_1_KIT_TC334_LK Debug'
+ - Project name = 'ADC_Queued_Scan_1_KIT_TC334_LK'
+ - Project path = 'C:/Users/FM23/AURIX-v1.10.2-workspace/ADC_Queued_Scan_1_KIT_TC334_LK'
+ - Output file = 'Debug/ADC_Queued_Scan_1_KIT_TC334_LK.elf'
+ - Stop on startup = 'true'
+ - Stop on startup location = 'core0_main'
+ - Verbose mode = false' - Invisible winIDEA = 'true'
+ - Bring winIDEA to top = 'true'
+ - Verify download = 'true'
+ - Analyze source files = 'false'
+ - Shutdown winIDEA at terminate session = 'true'
+ - Save winIDEA workspace = 'true'
+ - winIDEA workspace path = '.ads/winIDEAWorkspaces/Debug/ADS.xjrf'
+ - full winIDEA workspace path = 'C:\Users\FM23\AURIX-v1.10.2-workspace\ADC_Queued_Scan_1_KIT_TC334_LK\.ads\winIDEAWorkspaces\Debug\ADS.xjrf'
+ - Device = 'TC332LP'
+ - Hardware = 'IFX_DAS'
+ - Communication = 'USB'
+ - Hardware debugger = ''
+ - Image check = 'Default'
+ - Create SMP = 'true'
+
+5517 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  5522.5235  ***  Connecting to winIDEA 'C:\Infineon\AURIX-Studio-1.10.2\winIDEA\' with workspace 'C:\Users\FM23\AURIX-v1.10.2-workspace\ADC_Queued_Scan_1_KIT_TC334_LK\.ads\winIDEAWorkspaces\Debug\ADS.xjrf', winIDEA-ID: 'com.tasking.winIDEA.instance.id-ADC_Queued_Scan_1_KIT_TC334_LK Debug', visible: false, CLI args: '/HideCrashDumpMessage'
+7827 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  7832.559  ***  DAS Servers:
+7827 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  7832.7273  ***  Loading DAS Server list finished. [541ms]
+7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7849.7363  ***  Connected to winIDEA and setup workspace.
+7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.2839  ***  Version of isystem.connect for Java: 9.21.259.0
+7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.3827  ***  Version of isystem.connect DLL: 9.21.259.0.0
+7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.6217  ***  Version of winIDEA: 9.21.253
+7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.6692  ***  Downloading ...
+9645 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  9651.218  ***  Shutting down iConnect for cores: [0]
+9646 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  9651.4389  ***  Disconnecting from and closing winIDEA on core 0.
+9688 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  9693.4046  ***  ISysConnectionService initialization(super) finished.
+9688 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  9693.4855  ***  ISysConnectionService initialization(main) started.
+9688 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  9693.7752  ***  ISysConnectionService initialization(main) finished.
+9689 ERROR [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
+java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Unable to initialize: Cannot find server: 
+BBK Probe(IFXDAS) init failed. / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
+	at si.isystem.connect.connectJNI.CSessionCtrl_begin_program(Native Method)
+	at si.isystem.connect.CSessionCtrl.begin_program(CSessionCtrl.java:65)
+	at si.isystem.debug.core.proxy.SessionControllerProxy.beginProgram(Unknown Source)
+	at si.isystem.debug.core.proxy.ISysSessionManager.begin(Unknown Source)
+	at si.isystem.debug.core.winidea.IConLaunchManager.startDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSessionWithProgressDialog(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.doInitialize(Unknown Source)
+	at si.isystem.dsf.ISysAbstractDsfService.initialize(Unknown Source)
+	at si.isystem.dsf.launch.ISysServiceInitializationSequence$1.execute(Unknown Source)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.run(Sequence.java:380)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+9691 ERROR [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysLaunchDelegate : Launch failed.
+org.eclipse.debug.core.DebugException: TASKING winIDEA services initialization failed.
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more

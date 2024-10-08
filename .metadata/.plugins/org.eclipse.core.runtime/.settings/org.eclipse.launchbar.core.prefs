@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Blinky_LED_1_KIT_TC375_SB Debug,org.eclipse.launchbar.core.descriptorType.default\:team1 TriCore Debug (TASKING) (1),org.eclipse.launchbar.core.descriptorType.default\:Final_Project TriCore Debug (TASKING),org.eclipse.launchbar.core.descriptorType.default\:STM_Interrupt_1_KIT_TC375_LK Debug,org.eclipse.launchbar.core.descriptorType.default\:ADC_Queued_Scan_1_KIT_TC334_LK Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ADC_Queued_Scan_1_KIT_TC334_LK\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:ADC_Queued_Scan_1_KIT_TC334_LK\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Blinky_LED_1_KIT_TC375_SB\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Blinky_LED_1_KIT_TC375_SB\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
