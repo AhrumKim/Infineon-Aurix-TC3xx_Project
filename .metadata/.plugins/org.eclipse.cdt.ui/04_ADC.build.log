@@ -1,0 +1,11 @@
+18:03:12 **** Incremental Build of configuration TriCore Debug (GCC) for project 04_ADC ****
+make --output-sync -j24 all 
+Invoking: AURIX Print Size
+tricore-elf-size  --format=berkeley "04_ADC.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13830	     36	  38088	  51954	   caf2	04_ADC.elf
+Finished building: 04_ADC.siz
+ 
+
+18:03:13 Build Finished. 0 errors, 0 warnings. (took 414ms)
+

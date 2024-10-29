@@ -1,0 +1,11 @@
+11:25:59 **** Incremental Build of configuration TriCore Debug (GCC) for project 00_TesT ****
+make --output-sync -j24 all 
+Invoking: AURIX Print Size
+tricore-elf-size  --format=berkeley "00_TesT.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9808	     36	  37904	  47748	   ba84	00_TesT.elf
+Finished building: 00_TesT.siz
+ 
+
+11:25:59 Build Finished. 0 errors, 0 warnings. (took 328ms)
+

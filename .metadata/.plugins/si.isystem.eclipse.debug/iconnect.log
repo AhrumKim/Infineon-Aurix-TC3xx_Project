@@ -1,26 +1,26 @@
-552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.3151  ***  **********************************************************
-552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.6728  ***  Logger configuration successful. Configuration file used: 
-552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.7001  ***  C:\Infineon\AURIX-Studio-1.10.2\configuration\org.eclipse.osgi\361\0\.cp\lib\log4j.properties
-552  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] Log5J : ***  558.7181  ***  **********************************************************
-553  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysPluginConfiguration : ***  559.9595  ***  Loading debug plugin properties from 'C:\Infineon\AURIX-Studio-1.10.2\isys_debugger_configuration.json'
-665  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysPluginConfiguration : ***  670.0455  ***  Loaded plugin configuration:
+16   INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] Log5J : ***  20.0747  ***  **********************************************************
+16   INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] Log5J : ***  20.4725  ***  Logger configuration successful. Configuration file used: 
+16   INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] Log5J : ***  20.5144  ***  C:\Infineon\AURIX-Studio-1.10.2\configuration\org.eclipse.osgi\361\0\.cp\lib\log4j.properties
+16   INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] Log5J : ***  20.5414  ***  **********************************************************
+17   INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysPluginConfiguration : ***  21.2333  ***  Loading debug plugin properties from 'C:\Infineon\AURIX-Studio-1.10.2\isys_debugger_configuration.json'
+111  INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysPluginConfiguration : ***  115.3319  ***  Loaded plugin configuration:
 	 - Enable embedded: false
 	 - Enable portable false
 	 - Default selection: Custom
 	 - Default install path: '\winIDEA'
-665  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISystemPreferences : ***  670.1734  ***  State location loaded at C:\Users\FM23\AURIX-v1.10.2-workspace\.metadata\.plugins\si.isystem.eclipse.debug
-665  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISystemPreferences : ***  670.5794  ***  Preferences loaded: Install type: Custom, Custom path: '\winIDEA'
-667  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  672.6049  ***  Starting Plugin si.isystem.eclipse.debug version 921.25900.179258.
-669  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  675.3948  ***  Plugin si.isystem.eclipse.debug started.
-669  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  675.4425  ***  winIDEA installation cancelled because embedded winIDEA is not allowed.
-669  INFO  [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysDebugPlugin : ***  675.4643  ***  Plugin started: si.isystem.eclipse.debug
-5501 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  5507.1894  ***  ISysConnectionService initialization(super) started.
-5513 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  5519.1906  ***  
+111  INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISystemPreferences : ***  115.5437  ***  State location loaded at C:\Users\FM23\AURIX-v1.10.2-workspace\.metadata\.plugins\si.isystem.eclipse.debug
+111  INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISystemPreferences : ***  116.1383  ***  Preferences loaded: Install type: Custom, Custom path: '\winIDEA'
+114  INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysDebugPlugin : ***  118.7765  ***  Starting Plugin si.isystem.eclipse.debug version 921.25900.179258.
+127  INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysDebugPlugin : ***  131.1902  ***  Plugin si.isystem.eclipse.debug started.
+127  INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysDebugPlugin : ***  131.3331  ***  winIDEA installation cancelled because embedded winIDEA is not allowed.
+127  INFO  [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysDebugPlugin : ***  131.372  ***  Plugin started: si.isystem.eclipse.debug
+2279 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  2283.9098  ***  ISysConnectionService initialization(super) started.
+2288 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  2292.2724  ***  
 Starting debug session using launch configuration paramenters: 
- - Launch name = 'ADC_Queued_Scan_1_KIT_TC334_LK Debug'
- - Project name = 'ADC_Queued_Scan_1_KIT_TC334_LK'
- - Project path = 'C:/Users/FM23/AURIX-v1.10.2-workspace/ADC_Queued_Scan_1_KIT_TC334_LK'
- - Output file = 'Debug/ADC_Queued_Scan_1_KIT_TC334_LK.elf'
+ - Launch name = '06_PWM_GTM TriCore Debug (GCC)'
+ - Project name = '06_PWM_GTM'
+ - Project path = 'C:/Users/FM23/AURIX-v1.10.2-workspace/06_PWM_GTM'
+ - Output file = 'TriCore Debug (GCC)\06_PWM_GTM.elf'
  - Stop on startup = 'true'
  - Stop on startup location = 'core0_main'
  - Verbose mode = false' - Invisible winIDEA = 'true'
@@ -29,31 +29,31 @@ Starting debug session using launch configuration paramenters:
  - Analyze source files = 'false'
  - Shutdown winIDEA at terminate session = 'true'
  - Save winIDEA workspace = 'true'
- - winIDEA workspace path = '.ads/winIDEAWorkspaces/Debug/ADS.xjrf'
- - full winIDEA workspace path = 'C:\Users\FM23\AURIX-v1.10.2-workspace\ADC_Queued_Scan_1_KIT_TC334_LK\.ads\winIDEAWorkspaces\Debug\ADS.xjrf'
- - Device = 'TC332LP'
+ - winIDEA workspace path = '.ads/winIDEAWorkspaces/TriCore-Debug-(GCC)/ADS.xjrf'
+ - full winIDEA workspace path = 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf'
+ - Device = 'TC275T'
  - Hardware = 'IFX_DAS'
  - Communication = 'USB'
  - Hardware debugger = ''
  - Image check = 'Default'
  - Create SMP = 'true'
 
-5517 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  5522.5235  ***  Connecting to winIDEA 'C:\Infineon\AURIX-Studio-1.10.2\winIDEA\' with workspace 'C:\Users\FM23\AURIX-v1.10.2-workspace\ADC_Queued_Scan_1_KIT_TC334_LK\.ads\winIDEAWorkspaces\Debug\ADS.xjrf', winIDEA-ID: 'com.tasking.winIDEA.instance.id-ADC_Queued_Scan_1_KIT_TC334_LK Debug', visible: false, CLI args: '/HideCrashDumpMessage'
-7827 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  7832.559  ***  DAS Servers:
-7827 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  7832.7273  ***  Loading DAS Server list finished. [541ms]
-7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7849.7363  ***  Connected to winIDEA and setup workspace.
-7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.2839  ***  Version of isystem.connect for Java: 9.21.259.0
-7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.3827  ***  Version of isystem.connect DLL: 9.21.259.0.0
-7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.6217  ***  Version of winIDEA: 9.21.253
-7844 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  7850.6692  ***  Downloading ...
-9645 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  9651.218  ***  Shutting down iConnect for cores: [0]
-9646 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  9651.4389  ***  Disconnecting from and closing winIDEA on core 0.
-9688 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  9693.4046  ***  ISysConnectionService initialization(super) finished.
-9688 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  9693.4855  ***  ISysConnectionService initialization(main) started.
-9688 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  9693.7752  ***  ISysConnectionService initialization(main) finished.
-9689 ERROR [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
-java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Unable to initialize: Cannot find server: 
-BBK Probe(IFXDAS) init failed. / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
+2290 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  2294.0914  ***  Connecting to winIDEA 'C:\Infineon\AURIX-Studio-1.10.2\winIDEA\' with workspace 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf', winIDEA-ID: 'com.tasking.winIDEA.instance.id-06_PWM_GTM TriCore Debug (GCC)', visible: false, CLI args: '/HideCrashDumpMessage'
+4092 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  4096.257  ***  DAS Servers:
+4092 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  4096.5502  ***  [i] = 'IFX_DAS: DAS JTAG SHIELDBUDDY TC275 463DS2FO [USB]'
+4092 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  4096.6122  ***  Loading DAS Server list finished. [222ms]
+4114 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  4118.5593  ***  Connected to winIDEA and setup workspace.
+4115 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  4119.1306  ***  Version of isystem.connect for Java: 9.21.259.0
+4115 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  4119.242  ***  Version of isystem.connect DLL: 9.21.259.0.0
+4116 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  4120.1895  ***  Version of winIDEA: 9.21.253
+4116 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  4120.2917  ***  Downloading ...
+12041 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  12044.8319  ***  Shutting down iConnect for cores: [0]
+12041 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  12045.1091  ***  Disconnecting from and closing winIDEA on core 0.
+12231 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  12236.1694  ***  ISysConnectionService initialization(super) finished.
+12232 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  12236.3287  ***  ISysConnectionService initialization(main) started.
+12232 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  12236.6004  ***  ISysConnectionService initialization(main) finished.
+12233 ERROR [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
+java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Error programming / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
 	at si.isystem.connect.connectJNI.CSessionCtrl_begin_program(Native Method)
 	at si.isystem.connect.CSessionCtrl.begin_program(CSessionCtrl.java:65)
 	at si.isystem.debug.core.proxy.SessionControllerProxy.beginProgram(Unknown Source)
@@ -72,7 +72,7 @@ BBK Probe(IFXDAS) init failed. / isys::CSessionCtrl::begin_program() failed! win
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-9691 ERROR [Worker-12: Launching ADC_Queued_Scan_1_KIT_TC334_LK Debug] ISysLaunchDelegate : Launch failed.
+12236 ERROR [Worker-0: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysLaunchDelegate : Launch failed.
 org.eclipse.debug.core.DebugException: TASKING winIDEA services initialization failed.
 	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
 	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
@@ -86,3 +86,464 @@ Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.Cor
 	... 7 more
 Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
 	... 8 more
+15878 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  15881.9805  ***  ISysConnectionService initialization(super) started.
+15878 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  15882.3764  ***  
+Starting debug session using launch configuration paramenters: 
+ - Launch name = '06_PWM_GTM TriCore Debug (GCC)'
+ - Project name = '06_PWM_GTM'
+ - Project path = 'C:/Users/FM23/AURIX-v1.10.2-workspace/06_PWM_GTM'
+ - Output file = 'TriCore Debug (GCC)\06_PWM_GTM.elf'
+ - Stop on startup = 'true'
+ - Stop on startup location = 'core0_main'
+ - Verbose mode = false' - Invisible winIDEA = 'true'
+ - Bring winIDEA to top = 'true'
+ - Verify download = 'true'
+ - Analyze source files = 'false'
+ - Shutdown winIDEA at terminate session = 'true'
+ - Save winIDEA workspace = 'true'
+ - winIDEA workspace path = '.ads/winIDEAWorkspaces/TriCore-Debug-(GCC)/ADS.xjrf'
+ - full winIDEA workspace path = 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf'
+ - Device = 'TC275T'
+ - Hardware = 'IFX_DAS'
+ - Communication = 'USB'
+ - Hardware debugger = ''
+ - Image check = 'Default'
+ - Create SMP = 'true'
+
+15879 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  15882.8459  ***  Connecting to winIDEA 'C:\Infineon\AURIX-Studio-1.10.2\winIDEA\' with workspace 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf', winIDEA-ID: 'com.tasking.winIDEA.instance.id-06_PWM_GTM TriCore Debug (GCC)', visible: false, CLI args: '/HideCrashDumpMessage'
+17602 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  17606.345  ***  DAS Servers:
+17602 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  17606.6449  ***  [i] = 'IFX_DAS: DAS JTAG SHIELDBUDDY TC275 463DS2FO [USB]'
+17602 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  17606.7117  ***  Loading DAS Server list finished. [213ms]
+17620 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  17624.679  ***  Connected to winIDEA and setup workspace.
+17620 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  17624.8815  ***  Version of isystem.connect for Java: 9.21.259.0
+17620 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  17624.969  ***  Version of isystem.connect DLL: 9.21.259.0.0
+17621 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  17625.305  ***  Version of winIDEA: 9.21.253
+17621 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  17625.4343  ***  Downloading ...
+20450 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  20454.4766  ***  Shutting down iConnect for cores: [0]
+20451 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  20454.6723  ***  Disconnecting from and closing winIDEA on core 0.
+21088 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  21092.6046  ***  ISysConnectionService initialization(super) finished.
+21088 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  21092.7464  ***  ISysConnectionService initialization(main) started.
+21089 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  21092.7997  ***  ISysConnectionService initialization(main) finished.
+21089 ERROR [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
+java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Error programming / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
+	at si.isystem.connect.connectJNI.CSessionCtrl_begin_program(Native Method)
+	at si.isystem.connect.CSessionCtrl.begin_program(CSessionCtrl.java:65)
+	at si.isystem.debug.core.proxy.SessionControllerProxy.beginProgram(Unknown Source)
+	at si.isystem.debug.core.proxy.ISysSessionManager.begin(Unknown Source)
+	at si.isystem.debug.core.winidea.IConLaunchManager.startDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSessionWithProgressDialog(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.doInitialize(Unknown Source)
+	at si.isystem.dsf.ISysAbstractDsfService.initialize(Unknown Source)
+	at si.isystem.dsf.launch.ISysServiceInitializationSequence$1.execute(Unknown Source)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.run(Sequence.java:380)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21090 ERROR [Worker-8: Launching 06_PWM_GTM TriCore Debug (GCC)] ISysLaunchDelegate : Launch failed.
+org.eclipse.debug.core.DebugException: TASKING winIDEA services initialization failed.
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+27801 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  27805.7149  ***  ISysConnectionService initialization(super) started.
+27802 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  27806.0603  ***  
+Starting debug session using launch configuration paramenters: 
+ - Launch name = '06_PWM_GTM TriCore Debug (GCC)'
+ - Project name = '06_PWM_GTM'
+ - Project path = 'C:/Users/FM23/AURIX-v1.10.2-workspace/06_PWM_GTM'
+ - Output file = 'TriCore Debug (GCC)\06_PWM_GTM.elf'
+ - Stop on startup = 'true'
+ - Stop on startup location = 'core0_main'
+ - Verbose mode = false' - Invisible winIDEA = 'true'
+ - Bring winIDEA to top = 'true'
+ - Verify download = 'true'
+ - Analyze source files = 'false'
+ - Shutdown winIDEA at terminate session = 'true'
+ - Save winIDEA workspace = 'true'
+ - winIDEA workspace path = '.ads/winIDEAWorkspaces/TriCore-Debug-(GCC)/ADS.xjrf'
+ - full winIDEA workspace path = 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf'
+ - Device = 'TC275T'
+ - Hardware = 'IFX_DAS'
+ - Communication = 'USB'
+ - Hardware debugger = ''
+ - Image check = 'Default'
+ - Create SMP = 'true'
+
+27802 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  27806.3487  ***  Connecting to winIDEA 'C:\Infineon\AURIX-Studio-1.10.2\winIDEA\' with workspace 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf', winIDEA-ID: 'com.tasking.winIDEA.instance.id-06_PWM_GTM TriCore Debug (GCC)', visible: false, CLI args: '/HideCrashDumpMessage'
+29938 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  29942.586  ***  DAS Servers:
+29938 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  29942.912  ***  [i] = 'IFX_DAS: DAS JTAG SHIELDBUDDY TC275 463DS2FO [USB]'
+29938 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  29942.9679  ***  Loading DAS Server list finished. [614ms]
+29958 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  29962.2791  ***  Connected to winIDEA and setup workspace.
+29958 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  29962.4186  ***  Version of isystem.connect for Java: 9.21.259.0
+29958 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  29962.4766  ***  Version of isystem.connect DLL: 9.21.259.0.0
+29959 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  29963.213  ***  Version of winIDEA: 9.21.253
+29959 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  29963.2906  ***  Downloading ...
+32455 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  32459.0715  ***  Downloading finished.
+32455 DEBUG [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  32459.2504  ***  Deleting all breakpoints...
+32552 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  32555.8582  ***  Connected to target.
+32556 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  32560.1456  ***  Log level set to INFO
+32558 INFO  [si.isystem.eclipse.debug - 0] ISysSourceController : ***  32562.6969  ***  Failed to resolve path of a module named '<built-in>'.
+32610 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32614.682  ***  ISysConnectionService initialization(super) finished.
+32610 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32614.8056  ***  ISysConnectionService initialization(main) started.
+32610 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32614.8379  ***  ISysConnectionService initialization(main) finished.
+32610 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32614.8998  ***  ISysConnectionService initialization(sub) finished.
+32611 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32615.3117  ***  ISysCommandControl initialization(super) started.
+32612 INFO  [Worker-8: Command Executor Job] ISysAbstractDsfService : ***  32616.163  ***  Command Executor Job started.
+32612 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32616.2689  ***  ISysCommandControl initialization(super) finished.
+32612 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32616.3341  ***  ISysCommandControl initialization(main) started.
+32612 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32616.6022  ***  ISysCommandControl initialization(main) finished.
+32612 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32616.6519  ***  ISysCommandControl initialization(sub) finished.
+32615 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32619.4315  ***  ISysRunControl initialization(super) started.
+32620 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32624.7959  ***  ISysRunControl initialization(super) finished.
+32620 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32624.8541  ***  ISysRunControl initialization(main) started.
+32621 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32625.387  ***  ISysRunControl specified as service event listener (method: eventDispatched)
+32621 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32625.4507  ***  ISysRunControl initialization(main) finished.
+32628 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32632.2028  ***  ISysRunControl initialization(sub) finished.
+32628 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32632.7381  ***  ISysStackService initialization(super) started.
+32629 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32633.3894  ***  ISysStackService initialization(super) finished.
+32629 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32633.4416  ***  ISysStackService initialization(main) started.
+32629 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32633.5975  ***  ISysStackService specified as service event listener (method: eventDispatched)
+32629 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32633.6403  ***  ISysStackService initialization(main) finished.
+32629 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32633.6735  ***  ISysStackService initialization(sub) finished.
+32630 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32634.0317  ***  ISysMemoryService initialization(super) started.
+32630 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32634.6338  ***  Starting Memory Service sub-initialization sequence.
+32630 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32634.694  ***  ISysMemoryService initialization(super) finished.
+32630 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32634.7807  ***  ISysMemoryService initialization(main) started.
+32631 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32635.0676  ***  ISysMemoryService specified as service event listener (method: eventDispatched)
+32631 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32635.3157  ***  ISysMemoryService initialization(main) finished.
+32631 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32635.383  ***  Initializing Memory Service command cache.
+32631 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32635.4736  ***  Memory Service command cache initialized.
+32631 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32635.5166  ***  Initializing Memory Service block retrieval.
+32634 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32638.0048  ***  Memory Service block retrieval initialized.
+32634 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32638.0878  ***  Loading memory area properties.
+32635 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32639.7066  ***  Adding 1 memory blocks.
+32635 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32639.9221  ***  Block 'Virtual' [00000000:ffffffff] MAU=8 visible
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32639.9852  ***  Memory Service block retrieval initialized.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.0872  ***  Registering memory model adapter and service.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.3474  ***  Memory model adapter and service registered.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.4263  ***  ISysMemoryService initialization(sub) finished.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.6423  ***  ISysSourceLookupService initialization(super) started.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.7955  ***  ISysSourceLookupService initialization(super) finished.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.8263  ***  ISysSourceLookupService initialization(main) started.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.8688  ***  ISysSourceLookupService initialization(main) finished.
+32636 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32640.8958  ***  ISysSourceLookupService initialization(sub) finished.
+32637 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32641.5347  ***  ISysExpressionsService initialization(super) started.
+32637 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32641.74  ***  ISysExpressionsService initialization(super) finished.
+32637 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32641.7828  ***  ISysExpressionsService initialization(main) started.
+32638 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32642.1846  ***  ISysExpressionsService specified as service event listener (method: eventDispatched)
+32638 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32642.2373  ***  ISysExpressionsService initialization(main) finished.
+32638 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32642.2693  ***  ISysExpressionsService initialization(sub) finished.
+32638 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32642.7172  ***  ISysRegistersService initialization(super) started.
+32639 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32643.1988  ***  ISysRegistersService initialization(super) finished.
+32639 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32643.2497  ***  ISysRegistersService initialization(main) started.
+32639 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32643.5921  ***  ISysRegistersService specified as service event listener (method: eventDispatched)
+32639 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32643.6406  ***  ISysRegistersService initialization(main) finished.
+32639 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32643.6727  ***  ISysRegistersService initialization(sub) finished.
+32639 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32644.0039  ***  ISysDisassemblyService initialization(super) started.
+32640 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32644.2057  ***  ISysDisassemblyService initialization(super) finished.
+32640 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32644.2442  ***  ISysDisassemblyService initialization(main) started.
+32640 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32644.4749  ***  ISysDisassemblyService initialization(main) finished.
+32640 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32644.5247  ***  ISysDisassemblyService initialization(sub) finished.
+32640 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32644.8392  ***  ISysSfrService initialization(super) started.
+32641 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32645.1995  ***  ISysSfrService initialization(super) finished.
+32641 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32645.2483  ***  ISysSfrService initialization(main) started.
+32642 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32646.1572  ***  ISysSfrService specified as service event listener (method: eventDispatched)
+32642 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32646.3128  ***  ISysSfrService initialization(main) finished.
+32884 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32887.9591  ***  ISysSfrService initialization(sub) finished.
+32885 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32888.4564  ***  ISysRteService initialization(super) started.
+32885 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32888.689  ***  ISysRteService initialization(super) finished.
+32885 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32888.7263  ***  ISysRteService initialization(main) started.
+32885 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32888.878  ***  ISysRteService specified as service event listener (method: eventDispatched)
+32885 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32888.9159  ***  ISysRteService initialization(main) finished.
+32885 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32889.0461  ***  ISysRteService initialization(sub) finished.
+32886 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32890.0374  ***  ISysBreakpointService initialization(super) started.
+32887 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32890.5228  ***  ISysBreakpointService initialization(super) finished.
+32887 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32890.5747  ***  ISysBreakpointService initialization(main) started.
+32887 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32890.8709  ***  ISysBreakpointService specified as service event listener (method: eventDispatched)
+32887 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32890.9113  ***  ISysBreakpointService initialization(main) finished.
+32887 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  32890.9423  ***  ISysBreakpointService initialization(sub) finished.
+32890 INFO  [si.isystem.eclipse.debug - 0] ISysLaunch : ***  32893.4635  ***  Services initialization sequence completed
+59805 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59809.5777  ***  Unable to retrieve SoC status - terminating debug session
+59807 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractCommand : ***  59811.9914  ***  Processing the last command to be processed: si.isystem.dsf.control.commands.ISysCmdMiscTerminateDebugger
+59807 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59812.0653  ***  Command Control was shut down - cancelling remaining commands in queue.
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59812.2279  ***  Command Controll queue is empty and closed.
+59808 INFO  [Worker-8: Command Executor Job] ISysAbstractDsfService : ***  59812.5114  ***  ISysCommandControl command dequeued - exiting command processing loop
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59812.698  ***  ISysBreakpointService shutdown(super) started.
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59812.8207  ***  ISysBreakpointService shutdown(super) finished.
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59812.8519  ***  ISysBreakpointService shutdown(main) started.
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59812.8793  ***  ISysBreakpointService removed from service event listener list
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59812.9908  ***  ISysBreakpointService shutdown(main) finished.
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.0201  ***  ISysBreakpointService shutdown(sub) finished.
+59808 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.0611  ***  ISysRteService shutdown(super) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.1527  ***  ISysRteService shutdown(super) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.176  ***  ISysRteService shutdown(main) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.1951  ***  ISysRteService removed from service event listener list
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.2865  ***  ISysRteService shutdown(main) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.3374  ***  ISysRteService shutdown(sub) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.3705  ***  ISysSfrService shutdown(super) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.4648  ***  ISysSfrService shutdown(super) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.4873  ***  ISysSfrService shutdown(main) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.5061  ***  ISysSfrService removed from service event listener list
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.6109  ***  ISysSfrService shutdown(main) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.6517  ***  ISysSfrService shutdown(sub) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.6859  ***  ISysDisassemblyService shutdown(super) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.7176  ***  ISysDisassemblyService shutdown(super) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.7384  ***  ISysDisassemblyService shutdown(main) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.8306  ***  ISysDisassemblyService shutdown(main) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.8985  ***  ISysDisassemblyService shutdown(sub) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.9317  ***  ISysRegistersService shutdown(super) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.9605  ***  ISysRegistersService shutdown(super) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.9781  ***  ISysRegistersService shutdown(main) started.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59813.9957  ***  ISysRegistersService removed from service event listener list
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.1093  ***  ISysRegistersService shutdown(main) finished.
+59809 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.1343  ***  ISysRegistersService shutdown(sub) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.1637  ***  ISysExpressionsService shutdown(super) started.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.1973  ***  ISysExpressionsService shutdown(super) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.2165  ***  ISysExpressionsService shutdown(main) started.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.2359  ***  ISysExpressionsService removed from service event listener list
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.3548  ***  ISysExpressionsService shutdown(main) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.3864  ***  ISysExpressionsService shutdown(sub) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.5526  ***  ISysSourceLookupService shutdown(super) started.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.6198  ***  ISysSourceLookupService shutdown(super) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.6441  ***  ISysSourceLookupService shutdown(main) started.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.7697  ***  ISysSourceLookupService shutdown(main) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.7991  ***  ISysSourceLookupService shutdown(sub) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.8339  ***  ISysMemoryService shutdown(super) started.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.9018  ***  ISysMemoryService shutdown(super) finished.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.9611  ***  ISysMemoryService shutdown(main) started.
+59810 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59814.988  ***  ISysMemoryService removed from service event listener list
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.1345  ***  ISysMemoryService shutdown(main) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.1662  ***  ISysMemoryService shutdown(sub) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.1955  ***  ISysStackService shutdown(super) started.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.2253  ***  ISysStackService shutdown(super) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.2441  ***  ISysStackService shutdown(main) started.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.2623  ***  ISysStackService removed from service event listener list
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.3549  ***  ISysStackService shutdown(main) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.3775  ***  ISysStackService shutdown(sub) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.4039  ***  ISysRunControl shutdown(super) started.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.433  ***  ISysRunControl shutdown(super) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.4508  ***  ISysRunControl shutdown(main) started.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.4678  ***  ISysRunControl removed from service event listener list
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.5522  ***  ISysRunControl shutdown(main) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.5731  ***  ISysRunControl shutdown(sub) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.5968  ***  ISysCommandControl shutdown(super) started.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.6206  ***  ISysCommandControl shutdown(super) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.6373  ***  ISysCommandControl shutdown(main) started.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.7186  ***  ISysCommandControl shutdown(main) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.7392  ***  ISysCommandControl shutdown(sub) finished.
+59811 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59815.7696  ***  ISysConnectionService shutdown(super) started.
+59811 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  59815.814  ***  Shutting down iConnect for cores: [0]
+59811 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  59815.844  ***  Disconnecting from and closing winIDEA on core 0.
+59857 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59861.7383  ***  ISysConnectionService shutdown(super) finished.
+59857 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59861.848  ***  ISysConnectionService shutdown(main) started.
+59858 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59861.8906  ***  ISysConnectionService shutdown(main) finished.
+59858 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  59861.9224  ***  ISysConnectionService shutdown(sub) finished.
+59858 INFO  [si.isystem.eclipse.debug - 0] ISysLaunch : ***  59862.3276  ***  Debug services shutdown completed.
+869411 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  869414.4478  ***  ISysConnectionService initialization(super) started.
+869411 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  869414.7089  ***  
+Starting debug session using launch configuration paramenters: 
+ - Launch name = '06_PWM_GTM TriCore Debug (GCC)'
+ - Project name = '06_PWM_GTM'
+ - Project path = 'C:/Users/FM23/AURIX-v1.10.2-workspace/06_PWM_GTM'
+ - Output file = 'TriCore Debug (GCC)\06_PWM_GTM.elf'
+ - Stop on startup = 'true'
+ - Stop on startup location = 'core0_main'
+ - Verbose mode = false' - Invisible winIDEA = 'true'
+ - Bring winIDEA to top = 'true'
+ - Verify download = 'true'
+ - Analyze source files = 'false'
+ - Shutdown winIDEA at terminate session = 'true'
+ - Save winIDEA workspace = 'true'
+ - winIDEA workspace path = '.ads/winIDEAWorkspaces/TriCore-Debug-(GCC)/ADS.xjrf'
+ - full winIDEA workspace path = 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf'
+ - Device = 'TC275T'
+ - Hardware = 'IFX_DAS'
+ - Communication = 'USB'
+ - Hardware debugger = ''
+ - Image check = 'Default'
+ - Create SMP = 'true'
+
+869411 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  869414.9106  ***  Connecting to winIDEA 'C:\Infineon\AURIX-Studio-1.10.2\winIDEA\' with workspace 'C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf', winIDEA-ID: 'com.tasking.winIDEA.instance.id-06_PWM_GTM TriCore Debug (GCC)', visible: false, CLI args: '/HideCrashDumpMessage'
+872531 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  872535.3921  ***  DAS Servers:
+872531 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  872535.6673  ***  [i] = 'IFX_DAS: DAS JTAG SHIELDBUDDY TC275 463DS2FO [USB]'
+872531 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  872535.7246  ***  Loading DAS Server list finished. [683ms]
+872561 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  872565.4879  ***  Connected to winIDEA and setup workspace.
+872561 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  872565.7002  ***  Version of isystem.connect for Java: 9.21.259.0
+872561 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  872565.744  ***  Version of isystem.connect DLL: 9.21.259.0.0
+872561 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  872565.9393  ***  Version of winIDEA: 9.21.253
+872561 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  872566.0029  ***  Downloading ...
+875566 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  875571.1329  ***  Downloading finished.
+875664 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  875668.3565  ***  Connected to target.
+875664 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  875668.476  ***  Log level set to INFO
+875664 INFO  [si.isystem.eclipse.debug - 0] ISysSourceController : ***  875669.1466  ***  Failed to resolve path of a module named '<built-in>'.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875737.6902  ***  ISysConnectionService initialization(super) finished.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875737.7818  ***  ISysConnectionService initialization(main) started.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875737.808  ***  ISysConnectionService initialization(main) finished.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875737.8304  ***  ISysConnectionService initialization(sub) finished.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875737.8629  ***  ISysCommandControl initialization(super) started.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.029  ***  ISysCommandControl initialization(super) finished.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.0578  ***  ISysCommandControl initialization(main) started.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.0792  ***  ISysCommandControl initialization(main) finished.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.097  ***  ISysCommandControl initialization(sub) finished.
+875734 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.1197  ***  ISysRunControl initialization(super) started.
+875734 INFO  [Worker-8: Command Executor Job] ISysAbstractDsfService : ***  875738.3024  ***  Command Executor Job started.
+875735 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.8826  ***  ISysRunControl initialization(super) finished.
+875735 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.919  ***  ISysRunControl initialization(main) started.
+875735 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.9456  ***  ISysRunControl specified as service event listener (method: eventDispatched)
+875735 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875738.976  ***  ISysRunControl initialization(main) finished.
+875738 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875741.9518  ***  ISysRunControl initialization(sub) finished.
+875738 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.0194  ***  ISysStackService initialization(super) started.
+875738 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.1545  ***  ISysStackService initialization(super) finished.
+875738 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.1835  ***  ISysStackService initialization(main) started.
+875738 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.2073  ***  ISysStackService specified as service event listener (method: eventDispatched)
+875738 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.4064  ***  ISysStackService initialization(main) finished.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.6991  ***  ISysStackService initialization(sub) finished.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.7517  ***  ISysMemoryService initialization(super) started.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.8017  ***  Starting Memory Service sub-initialization sequence.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.8269  ***  ISysMemoryService initialization(super) finished.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.851  ***  ISysMemoryService initialization(main) started.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.8703  ***  ISysMemoryService specified as service event listener (method: eventDispatched)
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.893  ***  ISysMemoryService initialization(main) finished.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.9132  ***  Initializing Memory Service command cache.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.9389  ***  Memory Service command cache initialized.
+875739 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875742.9568  ***  Initializing Memory Service block retrieval.
+875740 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875743.6795  ***  Memory Service block retrieval initialized.
+875740 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875743.7437  ***  Loading memory area properties.
+875740 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875744.3026  ***  Adding 1 memory blocks.
+875740 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875744.3763  ***  Block 'Virtual' [00000000:ffffffff] MAU=8 visible
+875740 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875744.397  ***  Memory Service block retrieval initialized.
+875741 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.1256  ***  Registering memory model adapter and service.
+875741 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.3336  ***  Memory model adapter and service registered.
+875741 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.3913  ***  ISysMemoryService initialization(sub) finished.
+875741 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.4166  ***  ISysSourceLookupService initialization(super) started.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.5171  ***  ISysSourceLookupService initialization(super) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.5385  ***  ISysSourceLookupService initialization(main) started.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.5599  ***  ISysSourceLookupService initialization(main) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.5762  ***  ISysSourceLookupService initialization(sub) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.5995  ***  ISysExpressionsService initialization(super) started.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.7145  ***  ISysExpressionsService initialization(super) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.7343  ***  ISysExpressionsService initialization(main) started.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.755  ***  ISysExpressionsService specified as service event listener (method: eventDispatched)
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.7769  ***  ISysExpressionsService initialization(main) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.7928  ***  ISysExpressionsService initialization(sub) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875745.8115  ***  ISysRegistersService initialization(super) started.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.2097  ***  ISysRegistersService initialization(super) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.258  ***  ISysRegistersService initialization(main) started.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.2794  ***  ISysRegistersService specified as service event listener (method: eventDispatched)
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.3026  ***  ISysRegistersService initialization(main) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.3207  ***  ISysRegistersService initialization(sub) finished.
+875742 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.3415  ***  ISysDisassemblyService initialization(super) started.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.575  ***  ISysDisassemblyService initialization(super) finished.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.6221  ***  ISysDisassemblyService initialization(main) started.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.6426  ***  ISysDisassemblyService initialization(main) finished.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.6593  ***  ISysDisassemblyService initialization(sub) finished.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.6808  ***  ISysSfrService initialization(super) started.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.8378  ***  ISysSfrService initialization(super) finished.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.8891  ***  ISysSfrService initialization(main) started.
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.9102  ***  ISysSfrService specified as service event listener (method: eventDispatched)
+875743 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875746.9335  ***  ISysSfrService initialization(main) finished.
+875991 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.3103  ***  ISysSfrService initialization(sub) finished.
+875991 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.4478  ***  ISysRteService initialization(super) started.
+875991 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.6507  ***  ISysRteService initialization(super) finished.
+875991 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.6758  ***  ISysRteService initialization(main) started.
+875991 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.7014  ***  ISysRteService specified as service event listener (method: eventDispatched)
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.7249  ***  ISysRteService initialization(main) finished.
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.7419  ***  ISysRteService initialization(sub) finished.
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875995.841  ***  ISysBreakpointService initialization(super) started.
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875996.0003  ***  ISysBreakpointService initialization(super) finished.
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875996.0293  ***  ISysBreakpointService initialization(main) started.
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875996.0499  ***  ISysBreakpointService specified as service event listener (method: eventDispatched)
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875996.0718  ***  ISysBreakpointService initialization(main) finished.
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  875996.0881  ***  ISysBreakpointService initialization(sub) finished.
+875992 INFO  [si.isystem.eclipse.debug - 0] ISysLaunch : ***  875996.3679  ***  Services initialization sequence completed
+892269 INFO  [Worker-8: Command Executor Job] ISysAbstractDsfService : ***  892273.02  ***  ISysCommandControl command dequeued - exiting command processing loop
+892269 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractCommand : ***  892273.0854  ***  Processing the last command to be processed: si.isystem.dsf.control.commands.ISysCmdMiscTerminateDebugger
+892269 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892273.5945  ***  Command Control was shut down - cancelling remaining commands in queue.
+892269 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892273.6824  ***  Command Controll queue is empty and closed.
+892270 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892274.301  ***  ISysBreakpointService shutdown(super) started.
+892270 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892274.4186  ***  ISysBreakpointService shutdown(super) finished.
+892270 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892274.4767  ***  ISysBreakpointService shutdown(main) started.
+892270 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892274.5341  ***  ISysBreakpointService removed from service event listener list
+892270 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892274.7995  ***  ISysBreakpointService shutdown(main) finished.
+892270 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892274.8623  ***  ISysBreakpointService shutdown(sub) finished.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892274.9529  ***  ISysRteService shutdown(super) started.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.0345  ***  ISysRteService shutdown(super) finished.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.0865  ***  ISysRteService shutdown(main) started.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.1385  ***  ISysRteService removed from service event listener list
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.3454  ***  ISysRteService shutdown(main) finished.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.4857  ***  ISysRteService shutdown(sub) finished.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.5691  ***  ISysSfrService shutdown(super) started.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.6498  ***  ISysSfrService shutdown(super) finished.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.7017  ***  ISysSfrService shutdown(main) started.
+892271 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.7564  ***  ISysSfrService removed from service event listener list
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892275.9826  ***  ISysSfrService shutdown(main) finished.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.0901  ***  ISysSfrService shutdown(sub) finished.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.1735  ***  ISysDisassemblyService shutdown(super) started.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.2646  ***  ISysDisassemblyService shutdown(super) finished.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.3213  ***  ISysDisassemblyService shutdown(main) started.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.5926  ***  ISysDisassemblyService shutdown(main) finished.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.6581  ***  ISysDisassemblyService shutdown(sub) finished.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.7287  ***  ISysRegistersService shutdown(super) started.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.7983  ***  ISysRegistersService shutdown(super) finished.
+892272 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.8481  ***  ISysRegistersService shutdown(main) started.
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892276.8999  ***  ISysRegistersService removed from service event listener list
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.1682  ***  ISysRegistersService shutdown(main) finished.
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.2323  ***  ISysRegistersService shutdown(sub) finished.
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.3075  ***  ISysExpressionsService shutdown(super) started.
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.3817  ***  ISysExpressionsService shutdown(super) finished.
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.4353  ***  ISysExpressionsService shutdown(main) started.
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.4879  ***  ISysExpressionsService removed from service event listener list
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.7949  ***  ISysExpressionsService shutdown(main) finished.
+892273 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.8703  ***  ISysExpressionsService shutdown(sub) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892277.9475  ***  ISysSourceLookupService shutdown(super) started.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.0208  ***  ISysSourceLookupService shutdown(super) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.0752  ***  ISysSourceLookupService shutdown(main) started.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.2775  ***  ISysSourceLookupService shutdown(main) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.3374  ***  ISysSourceLookupService shutdown(sub) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.4055  ***  ISysMemoryService shutdown(super) started.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.4827  ***  ISysMemoryService shutdown(super) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.5361  ***  ISysMemoryService shutdown(main) started.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.5728  ***  ISysMemoryService removed from service event listener list
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.65  ***  ISysMemoryService shutdown(main) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.6849  ***  ISysMemoryService shutdown(sub) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.7062  ***  ISysStackService shutdown(super) started.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.7271  ***  ISysStackService shutdown(super) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.7443  ***  ISysStackService shutdown(main) started.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.7626  ***  ISysStackService removed from service event listener list
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.8321  ***  ISysStackService shutdown(main) finished.
+892274 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.8558  ***  ISysStackService shutdown(sub) finished.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.8755  ***  ISysRunControl shutdown(super) started.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.8964  ***  ISysRunControl shutdown(super) finished.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.9115  ***  ISysRunControl shutdown(main) started.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.9268  ***  ISysRunControl removed from service event listener list
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892278.9929  ***  ISysRunControl shutdown(main) finished.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892279.0121  ***  ISysRunControl shutdown(sub) finished.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892279.031  ***  ISysCommandControl shutdown(super) started.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892279.0502  ***  ISysCommandControl shutdown(super) finished.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892279.0666  ***  ISysCommandControl shutdown(main) started.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892279.1294  ***  ISysCommandControl shutdown(main) finished.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892279.1463  ***  ISysCommandControl shutdown(sub) finished.
+892275 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892279.1744  ***  ISysConnectionService shutdown(super) started.
+892275 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  892279.2177  ***  Shutting down iConnect for cores: [0]
+892275 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  892279.2471  ***  Disconnecting from and closing winIDEA on core 0.
+892460 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892465.1345  ***  ISysConnectionService shutdown(super) finished.
+892460 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892465.2484  ***  ISysConnectionService shutdown(main) started.
+892460 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892465.2948  ***  ISysConnectionService shutdown(main) finished.
+892460 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  892465.3184  ***  ISysConnectionService shutdown(sub) finished.
+892460 INFO  [si.isystem.eclipse.debug - 0] ISysLaunch : ***  892465.4094  ***  Debug services shutdown completed.
+9342831 INFO  [Framework stop - Equinox Container: 8ff04cac-ac37-4e01-b3c1-34fbedae3f30] ISysDebugPlugin : ***  9342835.3861  ***  Stopping Plugin si.isystem.eclipse.debug
+9342832 INFO  [Framework stop - Equinox Container: 8ff04cac-ac37-4e01-b3c1-34fbedae3f30] ISysDebugPlugin : ***  9342836.7403  ***  Plugin si.isystem.eclipse.debug stopped.
+9342846 INFO  [si.isystem.eclipse.debug - 0] ISysDebugPlugin : ***  9342850.8552  ***  Shutting down winIDEA instance 'com.tasking.winIDEA.instance.id-05_Encoder TriCore Debug (GCC)' funning workspace 'C:\Users\FM23\AURIX-v1.10.2-workspace\05_Encoder\.ads\winIDEAWorkspaces\TriCore-Debug-(GCC)\ADS.xjrf'.

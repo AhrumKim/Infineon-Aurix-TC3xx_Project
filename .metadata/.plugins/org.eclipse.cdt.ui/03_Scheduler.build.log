@@ -1,0 +1,11 @@
+16:19:00 **** Incremental Build of configuration TriCore Debug (GCC) for project 03_Scheduler ****
+make --output-sync -j24 all 
+Invoking: AURIX Print Size
+tricore-elf-size  --format=berkeley "03_Scheduler.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10126	     36	  37960	  48122	   bbfa	03_Scheduler.elf
+Finished building: 03_Scheduler.siz
+ 
+
+16:19:00 Build Finished. 0 errors, 0 warnings. (took 342ms)
+

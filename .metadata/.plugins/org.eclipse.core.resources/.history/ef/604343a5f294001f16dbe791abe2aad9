@@ -1,0 +1,61 @@
+/*
+ * ADC.c
+ *
+ *  Created on: 2024. 10. 28.
+ *      Author: FM23
+ */
+
+
+#include "ADC.h"
+
+void init_ADC_Group(void)
+{
+    IfxVadc_Adc_Config     adcConf; /* Define a configuration structure for the VADC module */
+    IfxVadc_Adc_initModuleConfig(&adcConf, &MODULE_VADC); /* adcConf 값을 디폴트 값(MODULE_VADC)으로 초기화 */
+    IfxVadc_Adc_initModule(&Vadc, &adcConf);    /* Vadc를 adcConf 값으로 초기화 */
+
+    IfxVadc_Adc_GroupConfig  adcGroupConf;   /*Define a configuration structure for the VADC group */
+    IfxVadc_Adc_initGroupConfig(&adcGroupConf, &Vadc); /* adc 그룹 구조체 초기화 및 Vadc 값 반영 */
+
+    adcGroupConf.groupId = IfxVadc_GroupId_4;     /* Select the group */
+    adcGroupConf.master = adcGroupConf.groupId;    /* Select the master group */
+
+    adcGroupConf.arbiter.requestSlotScanEnabled = TRUE;   /* Enable scan source */
+    adcGroupConf.scanRequest.autoscanEnabled = TRUE; /*Enable auto scan mode */
+
+    adcGroupConf.scanRequest.triggerConfig.gatingMode = IfxVadc_GatingMode_always; /* 특정  트리거 조건 없이 항상 변환 수행 */
+
+    IfxVadc_Adc_initGroup(&adcGroup4, &adcGroupConf); /* adc 그룹 설정 값 반영 */
+}
+
+void init_ADC_G4_SingleCh(uint8 Channel)
+{
+    IfxVadc_Adc_ChannelConfig adcChannelConfigInfo;
+    uint32 ulTemp = ((uint32)1u <<Channel);
+
+    IfxVadc_Adc_initChannelConfig(&adcChannelConfigInfo, &adcGroup4); /*Fill it with default values */
+
+    adcChannelConfigInfo.channelId = (IfxVadc_ChannelId)Channel; /*Select the Channel ID */
+    adcChannelConfigInfo.resultRegister = (IfxVadc_ChannelResult)(Channel); /* Use dedicated result register */
+
+    /* Initialize the channel */
+    IfxVadc_Adc_initChannel(&adcG4Channel[Channel], &adcChannelConfigInfo); /* 채널 초기화 */
+
+    /*Adc
+    /*
+
+}
+
+void init_ADC_G4_Channel(void)
+{
+    init_ADC_G4_SingleCh(ADC_G4_CH0); /* 각 채널 초기화 */
+    init_ADC_G4_SingleCh(ADC_G4_CH1);
+    init_ADC_G4_SingleCh(ADC_G4_CH2);
+    init_ADC_G4_SingleCh(ADC_G4_CH3);
+    init_ADC_G4_SingleCh(ADC_G4_CH4);
+    init_ADC_G4_SingleCh(ADC_G4_CH5);
+    init_ADC_G4_SingleCh(ADC_G4_CH6);
+    init_ADC_G4_SingleCh(ADC_G4_CH7);
+
+    IfxVadc_Adc_StartScan(&adcGroup4);
+}

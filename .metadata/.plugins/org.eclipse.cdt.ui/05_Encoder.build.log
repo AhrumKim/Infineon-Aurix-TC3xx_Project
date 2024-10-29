@@ -1,0 +1,11 @@
+11:08:13 **** Incremental Build of configuration TriCore Debug (GCC) for project 05_Encoder ****
+make --output-sync -j24 all 
+Invoking: AURIX Print Size
+tricore-elf-size  --format=berkeley "05_Encoder.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14638	     36	  38104	  52778	   ce2a	05_Encoder.elf
+Finished building: 05_Encoder.siz
+ 
+
+11:08:13 Build Finished. 0 errors, 0 warnings. (took 384ms)
+

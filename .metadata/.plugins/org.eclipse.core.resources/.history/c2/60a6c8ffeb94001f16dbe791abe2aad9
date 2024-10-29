@@ -1,0 +1,17 @@
+/*
+ * ADC.h
+ *
+ *  Created on: 2024. 10. 28.
+ *      Author: FM23
+ */
+
+#ifndef ADC_ADC_H_
+#define ADC_ADC_H_
+
+#include "Header_275.h"
+
+#ifdef USE_GLOBAl_H
+#define Global
+#else
+#define Global extern
+#endif /* ADC_ADC_H_ */

@@ -1,0 +1,11 @@
+11:44:35 **** Incremental Build of configuration TriCore Debug (GCC) for project 06_PWM_GTM ****
+make --output-sync -j24 all 
+Invoking: AURIX Print Size
+tricore-elf-size  --format=berkeley "06_PWM_GTM.elf"
+   text	   data	    bss	    dec	    hex	filename
+  21476	     60	  38268	  59804	   e99c	06_PWM_GTM.elf
+Finished building: 06_PWM_GTM.siz
+ 
+
+11:44:35 Build Finished. 0 errors, 0 warnings. (took 440ms)
+

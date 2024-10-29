@@ -1,0 +1,11 @@
+13:17:38 **** Incremental Build of configuration TriCore Debug (GCC) for project 01_GPIO ****
+make --output-sync -j24 all 
+Invoking: AURIX Print Size
+tricore-elf-size  --format=berkeley "01_GPIO.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10056	     36	  37904	  47996	   bb7c	01_GPIO.elf
+Finished building: 01_GPIO.siz
+ 
+
+13:17:38 Build Finished. 0 errors, 0 warnings. (took 338ms)
+
