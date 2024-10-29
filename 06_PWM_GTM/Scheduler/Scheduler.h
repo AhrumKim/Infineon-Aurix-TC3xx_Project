@@ -1,8 +1,8 @@
 /*
- * Scheduler.h
+ * GPIO.h
  *
- *  Created on: 2024. 10. 28.
- *      Author: FM23
+ *  Created on: 2024. 10. 25.
+ *      Author: FM22
  */
 
 #ifndef SCHEDULER_SCHEDULER_H_
@@ -16,15 +16,14 @@
 #define Global extern
 #endif
 
+Global void init_GPIO(void);
 
-//1. 각 주기마다 아래 함수 실행
-Global void AppScheduling(void);
+Global void AppScheduling(void);            //각 주기ㅏ다 아래 함수 실행
 void Task1ms(void);
 void Task10ms(void);
 void Task100ms(void);
 
-/* 확인용 변수*/
-Global uint32 cnt1ms;
+Global uint32 cnt1ms;                       //확인용 변수
 Global uint32 cnt10ms;
 Global uint32 cnt100ms;
 

@@ -9,7 +9,8 @@ C_SRCS += \
 ../Cpu2_Main.c 
 
 LSL_SRCS += \
-../Lcf_Gnuc_Tricore_Tc.lsl 
+../Lcf_Gnuc_Tricore_Tc.lsl \
+../Lcf_Tasking_Tricore_Tc.lsl 
 
 C_DEPS += \
 ./Cpu0_Main.d \

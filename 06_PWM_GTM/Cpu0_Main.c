@@ -30,8 +30,6 @@
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
-float a = 0;
-
 
 void core0_main(void)
 {
@@ -49,16 +47,12 @@ void core0_main(void)
 
     init_GPIO();
     init_STM();
-    init_ADC_Group();
-    init_ADC_G4_Channel();
+    init_ADC_Group(); init_ADC_G3_Channel();
     init_GTM();
-
-    a =1;
+    direction =1;
 
     while(1)
     {
         AppScheduling();
-        //ADC_G4_GetData();
-        //ADC_Read_Task();
     }
 }

@@ -1,4 +1,5 @@
-Encoder/Encoder.o: ../Encoder/Encoder.c ../Encoder/Encoder.h \
+Encoder/Encoder.o: ../Encoder/Encoder.c \
+ C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\GPIO/GPIO.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM/Header_275.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore\Cpu\Std/Ifx_Types.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\Infra\Platform/Tricore/Compilers/Compilers.h \
@@ -82,8 +83,8 @@ Encoder/Encoder.o: ../Encoder/Encoder.c ../Encoder/Encoder.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gtm/Std/IfxGtm_Tim.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gtm/Std/IfxGtm_Cmu.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\Service\CpuGeneric/StdIf/IfxStdIf_Timer.h \
- C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\GPIO/GPIO.h
-../Encoder/Encoder.h:
+ ../Encoder/Encoder.h
+C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\GPIO/GPIO.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM/Header_275.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore\Cpu\Std/Ifx_Types.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\Infra\Platform/Tricore/Compilers/Compilers.h:
@@ -167,4 +168,4 @@ C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\Infra\Sfr\TC27D\_Reg/
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gtm/Std/IfxGtm_Tim.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gtm/Std/IfxGtm_Cmu.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\Service\CpuGeneric/StdIf/IfxStdIf_Timer.h:
-C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\GPIO/GPIO.h:
+../Encoder/Encoder.h:

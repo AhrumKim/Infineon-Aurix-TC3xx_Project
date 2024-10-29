@@ -20,12 +20,12 @@
 #include "IfxStm.h"
 #include "IfxCpu_Irq.h"
 
+
 /***** ADC *****/
 #include "IfxVadc_Adc.h"
 #include "IfxAsclin_Asc.h"
 
-
-/***** PWM(GTM) *****/
+/***** PWM *****/
 #include "Gtm/Tom/PwmHl/IfxGtm_Tom_PwmHl.h"
 
 #endif /* HEADER_275_H_ */

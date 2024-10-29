@@ -13,76 +13,60 @@
        <EditorPersist>
         <__.0>
          <BookmarkList></BookmarkList>
-         <CaretPos>2174</CaretPos>
-         <Encoding>8</Encoding>
-         <FileName>C:\Users\FM23\AURIX-v1.10.2-workspace\05_Encoder\Cpu0_Main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.0>
-        <__.1>
-         <BookmarkList></BookmarkList>
          <CaretPos>2183</CaretPos>
          <Encoding>8</Encoding>
          <FileName>C:\Users\FM22\AURIX-v1.10.2-workspace\01_GPIO\Cpu0_Main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.1>
-        <__.2>
+        </__.0>
+        <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>1005</CaretPos>
+         <CaretPos>2158</CaretPos>
          <Encoding>8</Encoding>
-         <FileName>C:\Users\FM23\AURIX-v1.10.2-workspace\05_Encoder\GPIO\GPIO.c</FileName>
+         <FileName>C:\Users\FM22\AURIX-v1.10.2-workspace\04_ADC\Cpu0_Main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.3>
+        </__.1>
+        <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>2172</CaretPos>
          <Encoding>8</Encoding>
          <FileName>C:\Users\FM22\AURIX-v1.10.2-workspace\02_STM\Cpu0_Main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2158</CaretPos>
+         <Encoding>8</Encoding>
+         <FileName>C:\Users\FM22\AURIX-v1.10.2-workspace\03_Scheduler\Cpu0_Main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>2172</CaretPos>
+         <CaretPos>2158</CaretPos>
          <Encoding>8</Encoding>
-         <FileName>C:\Users\FM23\AURIX-v1.10.2-workspace\03_Scheduler\Cpu0_Main.c</FileName>
+         <FileName>C:\Users\FM22\AURIX-v1.10.2-workspace\05_Encoder\Cpu0_Main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.4>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>2174</CaretPos>
+         <CaretPos>2158</CaretPos>
          <Encoding>8</Encoding>
-         <FileName>C:\Users\FM23\AURIX-v1.10.2-workspace\04_ADC\Cpu0_Main.c</FileName>
+         <FileName>C:\Users\FM22\AURIX-v1.10.2-workspace\06_PWM_GTM\Cpu0_Main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>8</Encoding>
-         <FileName>C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\GPIO\GPIO.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.7>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2174</CaretPos>
+         <CaretPos>2158</CaretPos>
          <Encoding>8</Encoding>
          <FileName>C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Cpu0_Main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.7>
-        <__.8>
-         <BookmarkList></BookmarkList>
-         <CaretPos>7481</CaretPos>
-         <Encoding>8</Encoding>
-         <FileName>C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore\Cpu\Trap\IfxCpu_Trap.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>125</ScrollPos>
-        </__.8>
+        </__.6>
        </EditorPersist>
       </EditorPersist>
      </REG_ROOT>
@@ -149,21 +133,13 @@
         <ViewType>Document</ViewType>
        </__.3>
        <__.4>
-        <ViewId>6</ViewId>
-        <ViewType>Document</ViewType>
-       </__.4>
-       <__.5>
         <ViewId>1</ViewId>
         <ViewType>Output_Progress</ViewType>
-       </__.5>
-       <__.6>
+       </__.4>
+       <__.5>
         <ViewId>0</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.6>
-       <__.7>
-        <ViewId>7</ViewId>
-        <ViewType>Document</ViewType>
-       </__.7>
+       </__.5>
       </AllViewBaseData>
       <DissasemblyViews>
        <__.0>
@@ -194,16 +170,6 @@
         <ViewId>5</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
-       <__.1>
-        <RelativePath>..\..\..\GPIO\GPIO.c</RelativePath>
-        <ViewId>6</ViewId>
-        <ViewType>Document</ViewType>
-       </__.1>
-       <__.2>
-        <RelativePath>..\..\..\Libraries\iLLD\TC27D\Tricore\Cpu\Trap\IfxCpu_Trap.c</RelativePath>
-        <ViewId>7</ViewId>
-        <ViewType>Document</ViewType>
-       </__.2>
       </DocumentViews>
       <OtherViews>
        <__.0>
@@ -325,7 +291,7 @@
       <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>7</FocusedViewId>
+        <FocusedViewId>5</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
@@ -381,7 +347,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>7</TopTabViewId>
+               <TopTabViewId>5</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -394,26 +360,6 @@
                  <TopTabViewId>-1</TopTabViewId>
                  <ViewId>5</ViewId>
                 </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>6</ViewId>
-                </__.1>
-                <__.2>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>7</ViewId>
-                </__.2>
                </Children>
               </__.1>
              </Children>

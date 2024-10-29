@@ -48,14 +48,15 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM"/>
 			<item value="C:\Users\FM23\AURIX-v1.10.2-workspace\02_STM\02_STM"/>
 			<item value=""/>
 			<item value="C:\Users\FM23\AURIX-v1.10.2-workspace\03_Scheduler_1"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
 			<item value="C:\Users\FM23\AURIX-v1.10.2-workspace\02_STM.zip"/>
 			<item value="C:\Users\FM23\AURIX-v1.10.2-workspace\03_Scheduler.zip"/>
-			<item value=""/>
 		</list>
 	</section>
 </section>

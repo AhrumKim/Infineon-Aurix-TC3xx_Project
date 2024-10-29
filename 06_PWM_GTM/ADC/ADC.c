@@ -1,103 +1,78 @@
 /*
  * ADC.c
  *
- *  Created on: 2024. 10. 28.
- *      Author: FM23
+ *  Created on: 2024. 10. 25.
+ *      Author: FM22
  */
-
-
 #include "ADC.h"
 #include "STM.h"
 #include "GPIO.h"
 
-/*****1. init_ADC_Group ****/
-
-
 void init_ADC_Group(void)
 {
-    IfxVadc_Adc_Config     adcConf; /* Define a configuration structure for the VADC module */
-    IfxVadc_Adc_initModuleConfig(&adcConf, &MODULE_VADC); /* adcConf 값을 디폴트 값(MODULE_VADC)으로 초기화 */
-    IfxVadc_Adc_initModule(&Vadc, &adcConf);    /* Vadc를 adcConf 값으로 초기화 */
+    IfxVadc_Adc_Config      adcConf;                        /* Define a configuration structure for the VADC module */
+    IfxVadc_Adc_initModuleConfig(&adcConf, &MODULE_VADC);   /* adcConf 값을 디폴트 값(MODULE_VADC)오로 초기화 */
+    IfxVadc_Adc_initModule(&Vadc, &adcConf);                /* Vadc를 adcConf 값으로 초기화 */
 
-    IfxVadc_Adc_GroupConfig  adcGroupConf;   /*Define a configuration structure for the VADC group */
-    IfxVadc_Adc_initGroupConfig(&adcGroupConf, &Vadc); /* adc 그룹 구조체 초기화 및 Vadc 값 반영 */
+    IfxVadc_Adc_GroupConfig     adcGroupConf;               /* Define a configuration structure for the VADC group */
+    IfxVadc_Adc_initGroupConfig(&adcGroupConf, &Vadc);      /* adc 그룹 구조체 초기화 및 Vadc 값 반영 */
 
-    adcGroupConf.groupId = IfxVadc_GroupId_4;     /* Select the group */
-    adcGroupConf.master = adcGroupConf.groupId;    /* Select the master group */
+    adcGroupConf.groupId = IfxVadc_GroupId_3;               /* Select the group 다른 아이디로는 그룹2, 그룹3으로 지정*/
+    adcGroupConf.master = adcGroupConf.groupId;             /* Select the master group */
 
-    adcGroupConf.arbiter.requestSlotScanEnabled = TRUE;   /* Enable scan source */
-    adcGroupConf.scanRequest.autoscanEnabled = TRUE; /*Enable auto scan mode */
+    adcGroupConf.arbiter.requestSlotScanEnabled = TRUE;     /* Enabled scan source 별도의 설정없이 ADC변환*/
+    adcGroupConf.scanRequest.autoscanEnabled    = TRUE;     /* Enabled auto scan mode */
 
-    adcGroupConf.scanRequest.triggerConfig.gatingMode = IfxVadc_GatingMode_always; /* 특정  트리거 조건 없이 항상 변환 수행 */
+    adcGroupConf.scanRequest.triggerConfig.gatingMode = IfxVadc_GatingMode_always;  /* 특정 트리거 조건 없이 항상 변환 수행/인터럽트일 때는 다른 모드 */
 
-    IfxVadc_Adc_initGroup(&adcGroup4, &adcGroupConf); /* adc 그룹 설정 값 반영 */
+    IfxVadc_Adc_initGroup(&adcGroup3, &adcGroupConf);       /* adc 그룹 설정 값 반영 */
 }
 
-
-/*****2. init_ADC_G4_SingleCh ****/
-void init_ADC_G4_SingleCh(uint8 Channel)
+void init_ADC_G3_SingleCh(uint8 Channel)
 {
-    IfxVadc_Adc_ChannelConfig adcChannelConfigInfo;
-    uint32 ulTemp = ((uint32)1u <<Channel);
+    IfxVadc_Adc_ChannelConfig   adcChannelConfigInfo;
+    uint32 ulTemp = ((uint32)1u << Channel);
 
-    IfxVadc_Adc_initChannelConfig(&adcChannelConfigInfo, &adcGroup4); /*Fill it with default values */
+    IfxVadc_Adc_initChannelConfig(&adcChannelConfigInfo, &adcGroup3);           /* Fill it with default values */
 
-    adcChannelConfigInfo.channelId = (IfxVadc_ChannelId)Channel; /*Select the Channel ID */
-    adcChannelConfigInfo.resultRegister = (IfxVadc_ChannelResult)(Channel); /* Use dedicated result register */
+    adcChannelConfigInfo.channelId      = (IfxVadc_ChannelId) Channel;          /* Select the channel ID */
+    adcChannelConfigInfo.resultRegister = (IfxVadc_ChannelResult) (Channel);    /* Use dedicated result register */
 
     /* Initialize the channel */
-    IfxVadc_Adc_initChannel(&adcG4Channel[Channel], &adcChannelConfigInfo); /* 채널 초기화 */
+    IfxVadc_Adc_initChannel(&adcG3Channel[Channel], &adcChannelConfigInfo);     /* 채널 초기화 */
 
-    /*Add the channel to the scan sequence */
-    IfxVadc_Adc_setScan(&adcGroup4, ulTemp, ulTemp);  /* the background scan sequence. */
-
+    /* Add the channel to the scan sequence */
+    IfxVadc_Adc_setScan(&adcGroup3, ulTemp, ulTemp);                            /* the background scan sequence */
 }
 
-/*****3. init_ADC_G4_Channel ****/
-void init_ADC_G4_Channel(void)
+void init_ADC_G3_Channel(void)
 {
-    init_ADC_G4_SingleCh(ADC_G4_CH0); /* 각 채널 초기화 */
-    init_ADC_G4_SingleCh(ADC_G4_CH1);
-    init_ADC_G4_SingleCh(ADC_G4_CH2);
-    init_ADC_G4_SingleCh(ADC_G4_CH3);
-    init_ADC_G4_SingleCh(ADC_G4_CH4);
-    init_ADC_G4_SingleCh(ADC_G4_CH5);
-    init_ADC_G4_SingleCh(ADC_G4_CH6);
-    init_ADC_G4_SingleCh(ADC_G4_CH7);
+    init_ADC_G3_SingleCh(ADC_G3_CH0);   /* 각 채널 초기화 */
+    init_ADC_G3_SingleCh(ADC_G3_CH1);   //litekit A0(가변저항)
+    init_ADC_G3_SingleCh(ADC_G3_CH2);
+    init_ADC_G3_SingleCh(ADC_G3_CH3);
+    init_ADC_G3_SingleCh(ADC_G3_CH4);
+    init_ADC_G3_SingleCh(ADC_G3_CH5);
+    init_ADC_G3_SingleCh(ADC_G3_CH6);
+    init_ADC_G3_SingleCh(ADC_G3_CH7);   //가변저항
 
-    IfxVadc_Adc_startScan(&adcGroup4);
-}
+    IfxVadc_Adc_startScan(&adcGroup3);  //아날로그값이 실제값으로 변환
+    }
 
-/*****4. ADC_G4_GetData ****/
-void ADC_G4_GetData(void)
+void ADC_G3_GetData(void)   //실제값을 디지털로 변환해서 가져오는 함수
 {
-    Ifx_VADC_RES ADC_result; /*변환 결과 값 구조체 선언*/
+    Ifx_VADC_RES    ADC_result;                                     /* 변환 결과 값 구조체 선언 */
 
     uint8 ch;
-    for(ch = ADC_G4_CH0; ch < ADC_G4_MAX; ch++)
+    for (ch = ADC_G3_CH0; ch < ADC_G3_MAX; ch++)
     {
         do{
-            ADC_result = IfxVadc_Adc_getResult(&adcG4Channel[ch]); /*결과 값 가져오기*/
+            ADC_result = IfxVadc_Adc_getResult(&adcG3Channel[ch]);  /* 결과 값 가져오기 */
         }while(!ADC_result.B.VF);
 
-        ADC_G4_RAWDATA[ch]=ADC_result.B.RESULT;   /*결과 값 저장*/
-        }
-    IfxVadc_Adc_startScan(&adcGroup4);
- }
-
-/*****5. ADC_Read_Task ****/
-/*void ADC_Read_Task(void)
-{
-    uint32 lastTime = IfxStm_getTime(&MODULE_P10,1); // 현재 시간 저장
-
-    while (1) {
-        uint32 currentTime = IfxStm_getTime(&MODULE_STM0); // 현재 시간 가져오기
-
-        // 마지막 읽기 시간과 현재 시간 차이가 100ms 이상인지 확인
-        if ((currentTime - lastTime) >= (100 * (IfxStm_getFrequency(&MODULE_STM0) / 1000))) {
-            ADC_G4_GetData(); // ADC 데이터 읽기
-            lastTime = currentTime; // 마지막 읽기 시간을 현재 시간으로 업데이트
-        }
+        ADC_G3_RAWDATA[ch] = ADC_result.B.RESULT;                   /* 결과 값 저장 */
     }
+
+    IfxVadc_Adc_startScan(&adcGroup3);
 }
-*/
+

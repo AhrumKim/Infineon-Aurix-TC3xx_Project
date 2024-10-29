@@ -82,7 +82,9 @@ Scheduler/Scheduler.o: ../Scheduler/Scheduler.c ../Scheduler/Scheduler.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gtm/Std/IfxGtm_Tim.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gtm/Std/IfxGtm_Cmu.h \
  C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\Service\CpuGeneric/StdIf/IfxStdIf_Timer.h \
- C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\STM/STM.h
+ C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\STM/STM.h \
+ C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\GPIO/GPIO.h \
+ C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\ADC/ADC.h
 ../Scheduler/Scheduler.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM/Header_275.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore\Cpu\Std/Ifx_Types.h:
@@ -168,3 +170,5 @@ C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gt
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\iLLD\TC27D\Tricore/Gtm/Std/IfxGtm_Cmu.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\Libraries\Service\CpuGeneric/StdIf/IfxStdIf_Timer.h:
 C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\STM/STM.h:
+C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\GPIO/GPIO.h:
+C:\Users\FM23\AURIX-v1.10.2-workspace\06_PWM_GTM\ADC/ADC.h:

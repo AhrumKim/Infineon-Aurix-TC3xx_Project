@@ -1,11 +1,36 @@
-11:44:35 **** Incremental Build of configuration TriCore Debug (GCC) for project 06_PWM_GTM ****
+15:17:28 **** Incremental Build of configuration TriCore Debug (GCC) for project 06_PWM_GTM ****
 make --output-sync -j24 all 
+Building file: ../STM/STM.c
+Invoking: AURIX GCC Compiler
+tricore-elf-gcc -std=c99 "@C:/Users/FM23/AURIX-v1.10.2-workspace/06_PWM_GTM/TriCore Debug (GCC)/AURIX_GCC_Compiler-Include_paths__-I_.opt" -Og -g3 -gdwarf-3 -Wall -c -fmessage-length=0 -fno-common -fstrict-volatile-bitfields -fdata-sections -ffunction-sections -mtc161 -MMD -MP -MF"STM/STM.d" -MT"STM/STM.o" -o "STM/STM.o" "../STM/STM.c"
+Finished building: ../STM/STM.c
+ 
+Building file: ../PWM/PWM.c
+Invoking: AURIX GCC Compiler
+tricore-elf-gcc -std=c99 "@C:/Users/FM23/AURIX-v1.10.2-workspace/06_PWM_GTM/TriCore Debug (GCC)/AURIX_GCC_Compiler-Include_paths__-I_.opt" -Og -g3 -gdwarf-3 -Wall -c -fmessage-length=0 -fno-common -fstrict-volatile-bitfields -fdata-sections -ffunction-sections -mtc161 -MMD -MP -MF"PWM/PWM.d" -MT"PWM/PWM.o" -o "PWM/PWM.o" "../PWM/PWM.c"
+Finished building: ../PWM/PWM.c
+ 
+Building target: 06_PWM_GTM.elf
+Invoking: AURIX GCC Linker
+c:/infineon/aurix-studio-1.10.2/tools/compilers/tricore-gcc11/bin/../lib/gcc/tricore-elf/11.3.1/../../../../tricore-elf/bin/ld.exe: warning: 06_PWM_GTM.elf has a LOAD segment with RWX permissions
+tricore-elf-gcc -nocrt0 -T"../Lcf_Gnuc_Tricore_Tc.lsl" -Wl,--gc-sections -mtc161 -o "06_PWM_GTM.elf"  ./Scheduler/Scheduler.o  ./STM/STM.o  ./PWM/PWM.o  ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o  ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.o ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.o ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.o  ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o  ./Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.o  ./Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.o  ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o  ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o  ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o  ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o  ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Tom/PwmHl/IfxGtm_Tom_PwmHl.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o  ./Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.o  ./Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.o  ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.o  ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o  ./GPIO/GPIO.o  ./Encoder/Encoder.o  ./Configurations/Debug/sync_on_halt.o  ./ADC/ADC.o  ./Cpu0_Main.o ./Cpu1_Main.o ./Cpu2_Main.o 
+c:/infineon/aurix-studio-1.10.2/tools/compilers/tricore-gcc11/bin/../lib/gcc/tricore-elf/11.3.1/../../../../tricore-elf/bin/ld.exe: warning: 06_PWM_GTM.elf has a LOAD segment with RWX permissions
+Finished building target: 06_PWM_GTM.elf
+ 
+Invoking: AURIX Object Copy
+tricore-elf-objcopy -O ihex "06_PWM_GTM.elf" "06_PWM_GTM.hex"
+Finished building: 06_PWM_GTM.hex
+ 
 Invoking: AURIX Print Size
 tricore-elf-size  --format=berkeley "06_PWM_GTM.elf"
    text	   data	    bss	    dec	    hex	filename
-  21476	     60	  38268	  59804	   e99c	06_PWM_GTM.elf
+  22716	     68	  38268	  61052	   ee7c	06_PWM_GTM.elf
 Finished building: 06_PWM_GTM.siz
  
+Invoking: AURIX Create Listing
+tricore-elf-objdump -h -S "06_PWM_GTM.elf" > "06_PWM_GTM.lst"
+Finished building: 06_PWM_GTM.lst
+ 
 
-11:44:35 Build Finished. 0 errors, 0 warnings. (took 440ms)
+15:17:29 Build Finished. 0 errors, 2 warnings. (took 905ms)
 
