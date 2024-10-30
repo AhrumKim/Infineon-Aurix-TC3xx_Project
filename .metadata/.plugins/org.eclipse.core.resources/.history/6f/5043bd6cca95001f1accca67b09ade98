@@ -1,0 +1,19 @@
+/*
+ * UART.h
+ *
+ *  Created on: 2024. 10. 29.
+ *      Author: FM23
+ */
+
+#ifndef UART_UART_H_
+#define UART_UART_H_
+
+#include "Header_275.h"
+
+#ifdef USE_GLOBAL_H
+#define Global
+#else
+#define Global extern
+#endif
+
+#endif /* UART_UART_H_ */

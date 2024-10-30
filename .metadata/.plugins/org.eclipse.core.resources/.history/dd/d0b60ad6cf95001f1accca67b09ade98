@@ -1,0 +1,24 @@
+/*
+ * UART.c
+ *
+ *  Created on: 2024. 10. 29.
+ *      Author: FM23
+ */
+
+
+#include "UART.h"
+
+
+#define ASC_TX_BUFFER_SIZE      256 //버퍼 사이즈 설정 변수
+#define ASC_RX_BUFFER_SIZE      256 //버퍼 사이즈 설정 변수
+#define ASC_BAUDRATE            11520 //Buadrate 설정 변수
+#define ISR_PRIORITY_ASCLIN_TX  8   /*Priority for interrupt ISR Transmit */
+#define ISR_PRIORITY_ASCLIN_RX  4  /*Priority for interrupt ISR Receive */
+#define ISR_PRIORITY_ASCLIN_ER  12  /*Priority for interrupt ISR Receive */
+
+
+static IfxAsclin_Asc   g_ascHandle0;  //UART 설정 구조체 선언
+
+/*송신/수신 데이터 버퍼 변수 선언*/
+uint8 g_uartTxBuffer[ASC_TX_BUFFER_SIZE + sizeof(Ifx_Fifo) + 8];
+uint8 g_uartRxBuffer[ASC_RX_BUFFER_SIZE + sizeof(Ifx_Fifo) + 8];

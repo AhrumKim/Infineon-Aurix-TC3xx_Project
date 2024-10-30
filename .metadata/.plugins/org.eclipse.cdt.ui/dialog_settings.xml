@@ -26,4 +26,8 @@
 			<item value="adcGroup4"/>
 		</list>
 	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item key="size.width" value="814"/>
+		<item key="size.height" value="246"/>
+	</section>
 </section>
